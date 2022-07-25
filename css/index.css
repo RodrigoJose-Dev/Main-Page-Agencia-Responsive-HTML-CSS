@@ -10,6 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/*---NAVBAR---*/
+
 .navbar {
     display: flex;
     flex-flow: row wrap;
@@ -23,7 +25,7 @@ body {
     flex: 20%;
     margin-left: 10%;
     /* border: 1px solid red; */
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1 {
@@ -63,4 +65,80 @@ body {
 
 #faleconosco-btn:hover {
     background: #ff2978;
+}
+
+/*---HEADER---*/
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid rgb(3, 236, 3); */
+}
+
+.img-headline img {
+    max-width: 100%;
+}
+
+/*---SECTION---*/
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 50px;
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+    color: #180f4a;
 }
