@@ -1,2 +1,2 @@
 # Main-Page-Agencia-Responsive-HTML-CSS
-Uma página princiupal de uma agência fictícia.
+Uma página principal de uma agência fictícia.
