@@ -1,7 +1,9 @@
 /*--FONTS--*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
 
-* {
+*,
+:before,
+:after {
     box-sizing: border-box;
 }
 
@@ -74,11 +76,10 @@ body {
 .header {
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
     justify-content: center;
     align-items: center;
     background: white;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .headline {
